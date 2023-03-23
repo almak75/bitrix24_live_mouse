@@ -1,5 +1,6 @@
 import win32api, win32con
 import time
+import streamlit as st
 st.write('Просто оставьте эту страниццу открытой')
 st.write('Битрикс будет думать, что Вы работаете')
 def click(x,y):
