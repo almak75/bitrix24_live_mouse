@@ -3,7 +3,7 @@ import time
 import streamlit as st
 import os
 os.environ['XAUTHORITY']='/run/user/1000/gdm/Xauthority'
-os.environ['DISPLAY'] = ':0'
+os.environ['DISPLAY'] = ':1'
 
 import pyautogui
 
