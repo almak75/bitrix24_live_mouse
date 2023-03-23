@@ -11,8 +11,7 @@ while True:
     pyautogui.click(10, 10)
     time.sleep(60)
     pyautogui.click(10, 10)
-    
-    click(11,10)
+   
     time.sleep(60)
 
     
