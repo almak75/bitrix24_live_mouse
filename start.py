@@ -1,6 +1,9 @@
 #import win32api, win32con
 import time
 import streamlit as st
+import os
+os.environ['DISPLAY'] = ':0'
+
 import pyautogui
 
 st.write('Просто оставьте эту страниццу открытой')
